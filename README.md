@@ -122,6 +122,35 @@ Each prompt is structured using:
 
 ---
 
+## Project Structure
+
+```
+FUTURE_PE_03
+│
+├── README.md
+│
+├── prompts/
+│   ├── keyword_research_system.md
+│   ├── pillar_content_engine.md
+│   ├── cluster_blog_engine.md
+│   ├── local_intent_optimizer.md
+│   └── internal_linking_engine.md
+│
+└── content/
+    ├── keyword-strategy.md
+    ├── content-architecture.md
+    ├── pillar-page.md
+    ├── cluster-ssc.md
+    ├── cluster-intermediate.md
+    ├── cluster-jee-neet.md
+    └── cluster-selection-guide.md
+```
+
+This structure separates prompt design from generated outputs, making the system modular, reusable, and easy to understand.
+
+
+---
+
 ## Outcome
 
 This system demonstrates how AI can:
